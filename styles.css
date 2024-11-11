@@ -1,0 +1,77 @@
+/* Reset some basic styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #ffffff;
+    color: #000000;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #000000;
+    color: #ffffff;
+}
+
+header h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+nav a {
+    color: #ffffff;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+section {
+    padding: 40px;
+    margin: 20px auto;
+    max-width: 800px;
+}
+
+h2 {
+    font-size: 1.8em;
+    margin-bottom: 20px;
+}
+
+.tool, .project {
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+}
+
+.tool h3, .project h3 {
+    font-size: 1.4em;
+}
+
+.project p {
+    margin: 10px 0;
+}
+
+a {
+    color: #0000FF;
+    text-decoration: underline;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.tool, .project {
+    transition: transform 0.2s;
+}
+
+.tool:hover, .project:hover {
+    transform: scale(1.02);
+}
